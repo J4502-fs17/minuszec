@@ -1,5 +1,68 @@
+body{
+  background-color:#ebe3c3;
+}
+
 #container{
-  width:95%;
+  width:90%;
   background-color:#ffffff;
   margin:0px auto;
+  color:#898989;
+  font-family: Georgia, "Time News Roman", serif;
+  text-align: center;
+  background-color:#ffffff;
+
 }
+
+#name{
+  color:#2E704C;
+  text-shadow: 2px 2px #E5DAC5;
+  text-align: center;
+  font-family: Georgia, "Time News Roman", serif;
+  font-style: italic;
+  font-size: 30pt;
+
+}
+
+#email{
+  color: #898989;
+  font-family:"Time News Roman", Georgia, serif;
+  text-align:center;
+  font-size: 10pt;
+
+}
+
+#nav li{
+  list-style-type: none;
+  float:left;
+  margin:5px;
+  width:31.5%
+
+  }
+
+#nav a:link, a:visited{
+  display:block;
+  color:#ffffff;
+  background-color:#98bf21;
+  text-align:center;
+  text-decoration:none;
+  padding:4px;
+  font-family:Helvetica, Arial, Sans-serif;
+}
+
+#nav a:hover, #nav a:active{
+  background-color: #7a991a;
+}
+
+#nav{
+  padding:0;
+}
+
+
+/*color scheme
+  #898989 Grey
+  #
+#508263 Green
+#2E704C Deep green
+#E5DAC5 Cream
+#E8EA60 Yellow
+*/
