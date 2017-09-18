@@ -1,33 +1,39 @@
 body{
-  background-color:#ebe3c3;
+  background-color:#5E9E74;
+  #87B898;
+  #5E9E74;
+  #E5DAC9;
+  /*background-color:#508263;*/
 }
 
 #container{
   width:90%;
   background-color:#ffffff;
   margin:0px auto;
-  color:#898989;
-  font-family: Georgia, "Time News Roman", serif;
+  color:#676F6A;
+  font-family: 'Crimson Text', "Time News Roman", serif;
   text-align: center;
   background-color:#ffffff;
+  font-size: 15pt;
+
 
 }
 
 #name{
   color:#2E704C;
-  text-shadow: 2px 2px #E5DAC5;
+  text-shadow: 2px 2px #E5DAD9;
   text-align: center;
-  font-family: Georgia, "Time News Roman", serif;
-  font-style: italic;
+  font-family: 'Crimson Text', "Time News Roman", serif;
+  font-style: bold;
   font-size: 30pt;
 
 }
 
 #email{
-  color: #898989;
-  font-family:"Time News Roman", Georgia, serif;
+  color: #676F6A;
+  font-family:'Crimson Text', "Time News Roman", serif;
   text-align:center;
-  font-size: 10pt;
+  font-size: 12pt;
 
 }
 
@@ -42,19 +48,31 @@ body{
 #nav a:link, a:visited{
   display:block;
   color:#ffffff;
-  background-color:#98bf21;
+  background-color:#508263;
   text-align:center;
   text-decoration:none;
   padding:4px;
-  font-family:Helvetica, Arial, Sans-serif;
+  font-family: 'Crimson Text', "Time News Roman", serif;
 }
 
 #nav a:hover, #nav a:active{
-  background-color: #7a991a;
+  background-color: #2E704C;
 }
 
 #nav{
   padding:0;
+}
+
+#footer{
+  color:#898989;
+  font-family:'Crimson Text', "Time News Roman", serif;
+  font-size: 0.8em;
+  border-top:1px solid #676F6A;
+
+}
+
+img{
+  border-style:none;
 }
 
 
@@ -63,6 +81,6 @@ body{
   #
 #508263 Green
 #2E704C Deep green
-#E5DAC5 Cream
+#E5DAC9 Light green
 #E8EA60 Yellow
 */
