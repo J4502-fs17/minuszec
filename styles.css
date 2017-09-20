@@ -1,20 +1,37 @@
 body{
-  background-color:#5E9E74;
-  #87B898;
+  /*background-color:#5E9E74;*/
+  background-image:url(https://wallpaper.wiki/wp-content/uploads/2017/05/Jungle-Wallpaper-Backgrounds-HD.jpg);
+  background-position: center;
+  /*#87B898;
   #5E9E74;
-  #E5DAC9;
+  #E5DAC9;*/
   /*background-color:#508263;*/
+}
+
+html{font-size:100%;}
+
+P {
+  font-family:"Crimson Text", "Time News Roman", Arial, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.italic {font-style:italic;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight:700;
+  text-align:center;
 }
 
 #container{
   width:90%;
   background-color:#ffffff;
-  margin:0px auto;
-  color:#676F6A;
-  font-family: 'Crimson Text', "Time News Roman", serif;
+  margin:0 auto;
+  color:black;
+  font-family: 'Crimson Text', "Time News Roman", Arial, serif;
   text-align: center;
-  background-color:#ffffff;
-  font-size: 15pt;
 
 
 }
@@ -24,8 +41,8 @@ body{
   text-shadow: 2px 2px #E5DAD9;
   text-align: center;
   font-family: 'Crimson Text', "Time News Roman", serif;
-  font-style: bold;
-  font-size: 30pt;
+  font-weight:700;
+  font-size: 2.5em;
 
 }
 
@@ -33,15 +50,18 @@ body{
   color: #676F6A;
   font-family:'Crimson Text', "Time News Roman", serif;
   text-align:center;
-  font-size: 12pt;
+  font-size: 1em;
+  margin:0 auto;
+  font-style: italic;
 
 }
 
 #nav li{
   list-style-type: none;
-  float:left;
-  margin:5px;
-  width:31.5%
+  margin:5px auto;
+  text-decoration: none;
+  padding: 0;
+  width: 25%;
 
   }
 
@@ -53,6 +73,7 @@ body{
   text-decoration:none;
   padding:4px;
   font-family: 'Crimson Text', "Time News Roman", serif;
+  font-size: 1em;
 }
 
 #nav a:hover, #nav a:active{
@@ -61,18 +82,29 @@ body{
 
 #nav{
   padding:0;
+  list-style-type: none;
+}
+
+.caption{
+  color:#898989;
+  font-family:"Crimson Text", "Time News Roman", Arial, sans-serif;
+  font-size:0.8rem;
+  margin-top: 0;
+  font-style:italic;
+  text-align: right;
 }
 
 #footer{
   color:#898989;
   font-family:'Crimson Text', "Time News Roman", serif;
   font-size: 0.8em;
-  border-top:1px solid #676F6A;
+  border-top:0.5px solid #676F6A;
 
 }
 
 img{
   border-style:none;
+  text-align: center;
 }
 
 
