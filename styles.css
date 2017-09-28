@@ -15,12 +15,13 @@ P {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
+
 }
 
 .italic {font-style:italic;}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family:"Crimson Text", "Times New Roman", Arial, serif;
   font-weight:700;
   text-align:center;
 }
@@ -30,10 +31,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#ffffff;
   margin:0 auto;
   color:black;
-  font-family: 'Crimson Text', "Times New Roman", Georgia, serif;
+  font-family: 'Raleway', Arial, sans-serif;
   text-align: center;
-
-
 }
 
 #name{
@@ -72,7 +71,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align:center;
   text-decoration:none;
   padding:4px;
-  font-family: 'Crimson Text', "Times New Roman", Georgia, serif;
   font-size: 1em;
 }
 
@@ -87,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .caption{
   color:#898989;
-  font-family:"Crimson Text", "Times New Roman", Arial, sans-serif;
   font-size:0.8rem;
   margin-top: 0;
   font-style:italic;
@@ -96,7 +93,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer{
   color:#898989;
-  font-family:'Crimson Text', "Times New Roman", Georgia, serif;
   font-size: 0.8em;
   border-top:0.5px solid #676F6A;
 
