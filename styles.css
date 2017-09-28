@@ -11,35 +11,37 @@ body{
 html{font-size:100%;}
 
 P {
-  font-family:"Crimson Text", "Times New Roman", Arial, serif;
   font-size: 1rem;
   line-height: 1.5rem;
-  text-align: center;
 
 }
 
 .italic {font-style:italic;}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:"Crimson Text", "Times New Roman", Arial, serif;
+  font-family:"Amiri", "Times New Roman", Arial, serif;
   font-weight:700;
-  text-align:center;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 #container{
   width:90%;
-  background-color:#ffffff;
-  margin:0 auto;
+  background: rgba(255,255,255,0.85);
+  color: #000;
+  margin:auto;
   color:black;
   font-family: 'Raleway', Arial, sans-serif;
-  text-align: center;
+  text-align:left;
 }
 
 #name{
   color:#2E704C;
   text-shadow: 2px 2px #E5DAD9;
   text-align: center;
-  font-family: 'Crimson Text', "Times New Roman", Georgia, serif;
+  font-family: 'Amiri', "Times New Roman", Georgia, serif;
   font-weight:700;
   font-size: 2.5em;
 
@@ -47,8 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #email{
   color: #676F6A;
-  font-family:'Crimson Text', "Times New Roman", Georgia, serif;
   text-align:center;
+  font-family: 'Amiri', "Times New Roman", Georgia, serif;
   font-size: 1em;
   margin:0 auto;
   font-style: italic;
@@ -68,10 +70,10 @@ h1, h2, h3, h4, h5, h6 {
   display:block;
   color:#ffffff;
   background-color:#508263;
-  text-align:center;
   text-decoration:none;
   padding:4px;
   font-size: 1em;
+  text-align: center;
 }
 
 #nav a:hover, #nav a:active{
@@ -100,7 +102,6 @@ h1, h2, h3, h4, h5, h6 {
 
 img{
   border-style:none;
-  text-align: center;
 }
 
 
