@@ -68,7 +68,7 @@ h2{}
   }
 
 .nav{
-  padding:0 auto;
+  padding:0;
 }
 
 .caption{
@@ -86,23 +86,6 @@ h2{}
 
 }
 
-img{
-  border-style:none;
-}
-
-canvas
-{border: 1 dotted black;}
-
-audio {width:1000px;}
-
-video {padding:10px
-border:1px solid:#ddd;
-background-color: white;
--webkit-transform:rotate(-5deg);
--webkit-shadow:
-}
-
-@media (min-width:800px){#nav{flex-flow:row; justify-content: flex-end;}}
 
 
 /*color scheme
