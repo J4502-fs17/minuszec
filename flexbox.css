@@ -1,0 +1,44 @@
+.nav {
+  color:#ffffff;
+  background-color:#508263;
+  text-align: center;
+  text-decoration:none;
+  font-size: 1em;
+  display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+  align-content:space-around;
+  justify-content:space-around;
+}
+
+.about{
+  order:4;
+  margin:10px;
+}
+
+.github{
+  order:3;
+  margin:10px;
+}
+.wordpress{
+  order:2;
+    margin:10px;
+}
+.instagram{
+  order:1;
+    margin:10px;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aboutmeimg{
+  order:1;
+}
+
+.aboutme{
+  order:2;
+}

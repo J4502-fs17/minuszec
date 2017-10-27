@@ -1,37 +1,56 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
- <head>
+<head>
    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title> MINUSZEC </title>
-   <link rel="stylesheet" type="text/css" href="styles.css" />
+   <link rel="stylesheet" href="styles.css" />
+   <link rel="stylesheet" href="flexbox.css">
    <link href="https://fonts.googleapis.com/css?family=Amiri:400,700" rel="stylesheet"/>
    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i" rel="stylesheet"/>
 
- </head>
+</head>
 
 <body>
- <div id="container"><!--this is my container tag-->
-  <h1 id="name">ZECHANG FU</h1>
-  <p id="email">zfgb9@mail.missouri.edu, @zechangfu</p>
- <div id="nav">
-  <ul>
-    <li><a href="https://github.com/J4502-fs17" target="_blank">Class github</a></li>
-    <li><a href="page2.html" target="_blank">Second page</a></li>
-    <li><a href="https://www.instagram.com/zechangf/" target="_blank">Instagram</a>
-    </li>
-  </ul>
- </div><!--end of nav-->
- <br/>
- <h1> This is a heading </h1>
-  <p>Don't drink water, fish pee in it.</p>
-<a href="mailto:zfgb9@mail.missouri.edu">
-  <img src="img/Me.jpg" alt="Zechang Fu playing with fireworks" width="150px"/>
-</a>
 
-<p id="footer">Content copyright &copy; 2017 Zechang Fu.</p>
+<div class="container"><!--this is my container tag-->
 
- </div><!--end of my container tag-->
+<div id="header">
+   <h1 id="name">ZECHANG FU</h1>
+   <p id="email">zfgb9@mail.missouri.edu, @zechangfu</p>
+</div><!--for header-->
+
+<br/>
+
+<div class="nav">
+   <div class="about"><a href="index.html" >About</a></div>
+   <div class="github"><a href="https://github.com/J4502-fs17" target="_blank">Github</a></div>
+   <div class="wordpress"><a href="page2.html" target="_blank">Blog</a></div>
+   <div class="instagram"><a href="https://www.instagram.com/zechangf/" target="_blank">Instagram</a></div>
+</div><!--end of nav-->
+
+<br/>
+
+ <div class="heading">
+ <h1>About me</h1>
+</div><!--heading-->
+ <div class="main">
+  <div class="aboutme">
+   <p>你好! I am a journalism studnet studying at the University of Missouri, Columbia, Mo. I was transferred from a university in China last year.</p>
+   <p>In a digital era, I think it is important for a storyteller to be capabale for presenting the content in various manner, on multiple platforms. So I chose a path in convergence journalism, studying multimedia producing. This site is a part of my multimedia planning and design class.</p>
+   <p>Thanks for visiting.</p>
+  </div><!--aboutme-->
+  <div class="aboutmeimg">
+   <a href="mailto:zfgb9@mail.missouri.edu">
+   <img class="aboutmeimg" src="img/Me.jpg" alt="Zechang Fu" width="150px"/>
+   </a>
+  </div><!--aboutmeimg-->
+ </div><!--main-->
+
+ <p id="footer">Content copyright &copy; 2017 Zechang Fu.</p>
+
+</div><!--container-->
 
 </body>
 

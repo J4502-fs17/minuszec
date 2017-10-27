@@ -1,11 +1,6 @@
 body{
-  /*background-color:#5E9E74;*/
-  background-image:url(https://wallpaper.wiki/wp-content/uploads/2017/05/Jungle-Wallpaper-Backgrounds-HD.jpg);
-  background-position: center;
-  /*#87B898;
-  #5E9E74;
-  #E5DAC9;*/
-  /*background-color:#508263;*/
+  background-image:url("img/wallpaper.jpg");
+  background-position:center;
 }
 
 html{font-size:100%;}
@@ -13,6 +8,7 @@ html{font-size:100%;}
 P {
   font-size: 1rem;
   line-height: 1.5rem;
+  font-family:'Raleway', Arial, sans-serif;
 
 }
 
@@ -24,17 +20,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
-#container{
-  width:90%;
+h2{}
+
+.container{
+  width:95%;
   background: rgba(255,255,255,0.90);
   color: #000;
-  margin:auto;
-  color:black;
-  font-family: 'Raleway', Arial, sans-serif;
-  text-align:left;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
 }
 
 #name{
@@ -44,7 +41,6 @@ h1 {
   font-family: 'Amiri', "Times New Roman", Georgia, serif;
   font-weight:700;
   font-size: 2.5em;
-
 }
 
 #email{
@@ -53,36 +49,25 @@ h1 {
   font-family: 'Amiri', "Times New Roman", Georgia, serif;
   font-size: 1em;
   margin:0 auto;
-  font-style: italic;
-
 }
 
-#nav li{
-  list-style-type: none;
-  margin:5px auto;
-  text-decoration: none;
-  padding: 0;
-  width: 25%;
 
+
+.nav a:link, a:visited{
+    color:#ffffff;
+    background-color:#508263;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 2px;
+    font-size: 1em;
   }
 
-#nav a:link, a:visited{
-  display:block;
-  color:#ffffff;
-  background-color:#508263;
-  text-decoration:none;
-  padding:4px;
-  font-size: 1em;
-  text-align: center;
-}
+.nav a:hover, #nav a:active{
+    background-color: #2E704C;
+  }
 
-#nav a:hover, #nav a:active{
-  background-color: #2E704C;
-}
-
-#nav{
+.nav{
   padding:0;
-  list-style-type: none;
 }
 
 .caption{
@@ -103,6 +88,20 @@ h1 {
 img{
   border-style:none;
 }
+
+canvas
+{border: 1 dotted black;}
+
+audio {width:1000px;}
+
+video {padding:10px
+border:1px solid:#ddd;
+background-color: white;
+-webkit-transform:rotate(-5deg);
+-webkit-shadow:
+}
+
+@media (min-width:800px){#nav{flex-flow:row; justify-content: flex-end;}}
 
 
 /*color scheme
