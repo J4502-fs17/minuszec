@@ -31,7 +31,8 @@ h2{}
   color: #000;
   padding-left: 25px;
   padding-right: 25px;
-  margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #name{
@@ -67,7 +68,7 @@ h2{}
   }
 
 .nav{
-  padding:0;
+  padding:0 auto;
 }
 
 .caption{
