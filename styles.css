@@ -31,9 +31,9 @@ h2{}
   color: #000;
   padding-left: 25px;
   padding-right: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin:0 auto;
 }
+
 
 #name{
   color:#2E704C;

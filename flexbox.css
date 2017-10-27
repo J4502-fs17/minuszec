@@ -14,19 +14,23 @@
 .about{
   order:4;
   margin:10px;
+  min-width: 200px;
 }
 
 .github{
   order:3;
   margin:10px;
+    min-width: 200px;
 }
 .wordpress{
   order:2;
     margin:10px;
+      min-width: 200px;
 }
 .instagram{
   order:1;
     margin:10px;
+      min-width: 200px;
 }
 
 .main{
