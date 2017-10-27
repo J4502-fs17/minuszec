@@ -35,14 +35,24 @@
 
 .main{
 	display: flex;
-	flex-direction: row;
+  align-items:flex-start;
+  align-content:space-around;
+  justify-content:space-around;
   flex-wrap: wrap;
+
 }
 
 .aboutmeimg{
   order:1;
+  min-width:200px;
+  padding:20px;
 }
 
 .aboutme{
   order:2;
+  padding:20px;
+  flex-basis: auto;
+  min-width: 300px;
+  max-width: 450px;
+
 }
