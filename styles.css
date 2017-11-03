@@ -20,18 +20,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.8em;
 }
 
 h2{}
 
 .container{
-  width:90%;
   background: rgba(255,255,255,0.90);
   color: #000;
-  padding-left: 25px;
-  padding-right: 25px;
   margin:0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -41,42 +40,48 @@ h2{}
   text-align: center;
   font-family: 'Amiri', "Times New Roman", Georgia, serif;
   font-weight:700;
-  font-size: 2.5em;
+  font-size: 1.8em;
 }
 
-#email{
+/*#email{
   color: #676F6A;
   text-align:center;
   font-family: 'Amiri', "Times New Roman", Georgia, serif;
   font-size: 1em;
   margin:0 auto;
+}*/
+
+
+.nav ul{
+    padding:10px;
+    background-color:#508263;
+    border-radius: 2px;
+    list-style: none;
 }
-
-
 
 .nav a:link, a:visited{
     color:#ffffff;
-    background-color:#508263;
-    text-align: center;
     text-decoration:none;
-    border-radius: 2px;
     font-size: 1em;
   }
 
 .nav a:hover, #nav a:active{
-    background-color: #2E704C;
+  background-color: #2E704C;
+
   }
 
-.nav{
-  padding:0;
+.pullquote{
+  font-weight:bold;
+  font-style: italic;
 }
+
 
 .caption{
   color:#898989;
   font-size:0.8rem;
-  margin-top: 0;
+  margin-top: 2px;
   font-style:italic;
-  text-align: right;
+  text-align: left;
 }
 
 #footer{

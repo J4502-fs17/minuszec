@@ -1,57 +1,94 @@
-.nav {
-  color:#ffffff;
-  background-color:#508263;
-  text-align: center;
-  text-decoration:none;
-  font-size: 1em;
+#header{
+  display:flex;
+justify-content:center;
+}
+
+.nav ul{
   display: flex;
-  flex-wrap:wrap;
-  align-items:center;
-  align-content:space-around;
-  justify-content:space-around;
+  flex-flow:column;
 }
 
-.about{
-  order:4;
-  margin:10px;
-  min-width: 200px;
+.aboutmeimg .caption{
+  display: none;
 }
 
-.github{
-  order:3;
-  margin:10px;
-    min-width: 200px;
-}
-.wordpress{
-  order:2;
-    margin:10px;
-      min-width: 200px;
-}
-.instagram{
-  order:1;
-    margin:10px;
-      min-width: 200px;
+
+@media screen and (min-width:450px){
+  .nav ul{
+    flex-flow:row;
+    justify-content: space-around;
+  }
+  #header #name{
+    font-size: 2.5em;
+  }
+  h1{
+    font-size: 2.5em;
+  }
+  .container{
+    padding-left:30px;
+    padding-right: 30px;
+  }
+  .aboutmeimg img{
+    width:35%;
+  }
+  .aboutmeimg .caption{
+    display: block;
+  }
 }
 
-.main{
-	display: flex;
-  align-items:flex-start;
-  align-content:space-around;
-  justify-content:space-around;
-  flex-wrap: wrap;
-
+@media screen and (min-width:800px){
+  .container{width:80%;
+}
+.article{
+  display: grid;
+  grid-template-columns:200px 1fr 1fr;
+  grid-gap:30px;
+  grid-template-areas:
+  "a b b"
+  "c c d"
 }
 
 .aboutmeimg{
-  order:1;
-  min-width:200px;
-  padding:20px;
+  grid-area:a;
+}
+.aboutmeimg img{
+  width:100%;
 }
 
-.aboutme{
-  order:2;
-  padding:20px;
-  min-width: 300px;
-  max-width: 700px;
+.section1{
+  grid-area:b;
+}
+
+.section2{
+  grid-area:c;
+}
+
+.pullquote{
+  grid-area:d;
+}
+
+.section1 p:first-of-type, .section2 p:first-of-type{
+  margin-top:0;
+}
+
+}
+
+
+@media screen and (min-width:1000px){
+  .article{
+    display: grid;
+    grid-template-columns:200px 1fr 1fr 1fr;
+    grid-gap:20px;
+    grid-template-areas:
+    "a a b b"
+    "c c c d"
+  }
+
+  .aboutmeimg img{
+    width:90%;
+    padding:20px;
+    padding-top: 0;
+  }
+
 
 }
