@@ -59,15 +59,22 @@ h2{}
     list-style: none;
 }
 
+
 .nav a:link, a:visited{
     color:#ffffff;
     text-decoration:none;
     font-size: 1em;
+    text-align: center;
   }
 
 .nav a:hover, #nav a:active{
   background-color: #2E704C;
+  padding:10px;
 
+  }
+
+  .nav li{
+    text-align:center;
   }
 
 .pullquote{
