@@ -4,8 +4,7 @@ justify-content:center;
 }
 
 .nav ul{
-  display: flex;
-  flex-flow:column;
+  display: none;
 }
 
 .aboutmeimg .caption{
@@ -15,12 +14,21 @@ justify-content:center;
 
 @media screen and (min-width:450px){
   .nav ul{
+    display:flex;
     flex-flow:row;
     justify-content: space-around;
+  }
+
+  .nav li{
+      border-top:0px;
+      padding: 3px;
   }
   #header #name{
     font-size: 2.5em;
   }
+  .menu-trigger {
+  display:none;
+}
   h1{
     font-size: 2.5em;
   }
@@ -87,10 +95,10 @@ justify-content:center;
   .container{
     padding-left:50px;
     padding-right:50px;
+}
 
   .aboutmeimg img{
     width:90%;
-    padding:20px;
     padding-top: 0;
   }
 

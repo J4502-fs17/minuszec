@@ -12,7 +12,11 @@ P {
 
 }
 
-.italic {font-style:italic;}
+.menu-trigger{
+  background-color:#508263;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family:"Amiri", "Times New Roman", Arial, serif;
@@ -68,13 +72,22 @@ h2{}
   }
 
 .nav a:hover, #nav a:active{
-  background-color: #2E704C;
-  padding:10px;
+  /*background-color: #2E704C;
+  padding:10px;*/
+  color: #2E704C;
 
-  }
+}
 
   .nav li{
     text-align:center;
+    display:block;
+    padding: 8px;
+    border-top:1px #79896D solid;
+  }
+
+  .nav li:first-of-type{
+  border-top:none;
+  padding-top: 5px;
   }
 
 .pullquote{
