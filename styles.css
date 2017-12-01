@@ -57,9 +57,9 @@ h2{}
 
 
 .nav ul{
-    padding:10px;
+    padding:5px;
     background-color:#508263;
-    border-radius: 2px;
+    border-radius: 1px;
     list-style: none;
 }
 
@@ -67,7 +67,7 @@ h2{}
 .nav a:link, a:visited{
     color:#ffffff;
     text-decoration:none;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
   }
 
@@ -89,6 +89,22 @@ h2{}
   border-top:none;
   padding-top: 5px;
   }
+
+  .map-wrapper {
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+  }
+
+  .map-wrapper iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }
+
 
 .pullquote{
   font-weight:bold;

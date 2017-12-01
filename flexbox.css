@@ -54,6 +54,15 @@ justify-content:center;
   grid-template-areas:
   "a b b"
   "c c d"
+  "f f f"
+  "e e e"
+}
+
+  .map-wrapper{
+    grid-area:e;
+  }
+.mapheading{
+  grid-area:f;
 }
 
 .aboutmeimg{
@@ -90,6 +99,8 @@ justify-content:center;
     grid-template-areas:
     "a b b d"
     "c c c d"
+    "f f f f"
+    "e e e e"
   }
 
   .container{
